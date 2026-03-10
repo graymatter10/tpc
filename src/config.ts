@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://devosfera.vercel.app/",
+  website: "https://graymatter10/github.io/tpc",
   author: "TPC",
   profile: "https://github.com/graymatter10",
   desc: "The Penguins Club. No 1 Open source community in Bangladesh",
