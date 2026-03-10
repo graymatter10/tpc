@@ -2,6 +2,12 @@
 
 Below is a summary of all changes and visual improvements implemented in the blog
 
+- **March 11, 2026** - Hijecked By Robert is using now.
+
+## Hijacked By Robert
+
+Robert Hijacked this theme to make blog site for The Penguins Club.
+
 ### Recent Modifications
 
 - **Feb 25, 2026** - `0dd2760`: style: Remove macOS window header from code blocks and simplify their styling

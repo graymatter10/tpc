@@ -3,28 +3,41 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Bienvenido a mi rincón digital. Soy un **desarrollador** y **estudiante** apasionado por la tecnología, los videojuegos y construir cosas que vivan en internet.
+# About The Penguins Club (TPC)
 
-## ¿Quién soy?
+## Our Vision
 
-Me llamo Andrés, y desde que recuerdo siempre tuve curiosidad por entender cómo funcionan las cosas — desde desarmar juguetes de niño hasta desarmar código ajeno a las 2 AM. Actualmente estudio ingeniería mientras desarrollo proyectos que me retan a aprender algo nuevo cada día.
+**The Penguins Club (TPC)** envisions a world where technology is accessible to all through **Linux** and **Free and Open Source Software (FOSS)**. Our goal is to empower individuals and communities in Bangladesh by fostering a culture of learning, collaboration, and innovation.
 
-Cuando no estoy programando, probablemente estoy en algún mundo virtual explorando mapas, completando misiones o compitiendo online. Los videojuegos no solo son mi hobby, también me enseñaron a resolver problemas, trabajar en equipo y, sobre todo, a no rendirme después del intento #847.
+---
 
-## Lo que hago
+## Our Mission
 
-- **Desarrollo web** — Me encanta construir experiencias web modernas con tecnologías como Astro, React, TypeScript y todo lo que el ecosistema JavaScript tiene para ofrecer.
-- **Open Source** — Creo en el poder del código abierto. Puedes encontrar mis proyectos en [GitHub](https://github.com/0xdres/).
-- **Aprendizaje continuo** — Siempre estoy explorando nuevas herramientas, frameworks y conceptos. La tecnología evoluciona rápido y me gusta ir al ritmo.
+We are committed to:
 
-## Gaming
+- **Educate**: Providing comprehensive learning opportunities through workshops, seminars, and hands-on training in Linux and FOSS.
+- **Collaborate**: Creating a vibrant community for sharing knowledge, resources, and experiences among technology enthusiasts.
+- **Innovate**: Encouraging contributions to open-source projects and developing new software solutions that benefit society.
 
-Los videojuegos son parte de mi ADN. Desde RPGs épicos hasta shooters competitivos, disfruto prácticamente cualquier género. Es ese espacio donde la creatividad se encuentra con la estrategia y la diversión pura.
+---
 
-## Este blog
+## What We Do
 
-**Devosfera** nació como un espacio para documentar mi viaje como desarrollador, compartir lo que aprendo y conectar con personas que comparten las mismas pasiones. Aquí encontrarás posts sobre desarrollo, tecnología, y alguna que otra reflexión random de madrugada.
+At TPC, we run various initiatives and activities, including:
 
-Si quieres conectar, no dudes en encontrarme en [GitHub](https://github.com/0xdres/), [X](https://x.com/avdyen) o [LinkedIn](https://www.linkedin.com/in/avdyan/). Siempre es bueno conocer gente cool de la comunidad.
+- **Workshops & Training**: Hands-on sessions for users of all skill levels to gain practical knowledge in Linux and FOSS.
+- **Community Events**: Regular meetups, hackathons, and seminars featuring industry experts and thought leaders.
+- **Support Systems**: Offering forums and mentorship programs to assist newcomers in navigating the open-source landscape.
 
-> _"El código es poesía, pero con más puntos y comas."_ — Yo, probablemente
+---
+
+## Join Our Community
+
+We welcome everyone, from beginners to seasoned professionals, to be part of our mission. By joining **The Penguins Club**, you will connect with like-minded individuals, enhance your skills, and contribute to meaningful projects in the tech community.
+
+---
+
+## Get In Touch
+
+For inquiries, collaborations, or to become a member, feel free to reach out through our contact page. Together, let’s champion the power of open-source technology!
+
