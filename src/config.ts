@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://graymatter10/github.io/tpc",
+  website: "https://ignoreit.me",
   author: "TPC",
   profile: "https://github.com/graymatter10",
   desc: "The Penguins Club. No 1 Open source community in Bangladesh",
