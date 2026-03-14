@@ -1,8 +1,8 @@
-import { defineCollection } from "astro:content";
 import { z } from "astro/zod";
 import { docsLoader, i18nLoader } from "@astrojs/starlight/loaders";
 import { docsSchema, i18nSchema } from "@astrojs/starlight/schema";
 import { glob } from "astro/loaders";
+import { defineCollection } from "astro:content";
 
 
 const ctaSection = defineCollection({
