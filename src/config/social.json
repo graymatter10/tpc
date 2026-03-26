@@ -3,23 +3,23 @@
     {
       "icon": "facebook",
       "label": "Facebook",
-      "href": "https://www.facebook.com/"
+      "href": "https://www.facebook.com/tpc"
     },
     {
       "icon": "slack",
       "label": "Slack",
-      "href": "https://slack.com/"
+      "href": "https://slack.com/tpc"
     },
     {
       "icon": "github",
       "label": "GitHub",
-      "href": "https://www.github.com/"
+      "href": "https://www.github.com/The-Penguins-Club"
     },
 
     {
       "icon": "linkedin",
       "label": "LinkedIn",
-      "href": "https://www.linkedin.com/"
+      "href": "https://www.linkedin.com/tpc"
     }
   ]
 }

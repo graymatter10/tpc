@@ -6,7 +6,7 @@
     },
     {
       "name": "Documentation",
-      "url": "/getting-started/introduction/overview/"
+      "url": "/linux/"
     },
     {
       "name": "Reference",
@@ -14,12 +14,12 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Configuration",
-          "url": "/reference/configuration/"
+          "name": "Linux",
+          "url": "/linux/linux-introduction/"
         },
         {
-          "name": "Plugins Reference",
-          "url": "/reference/plugin/"
+          "name": "Privacy",
+          "url": "/privacy/intro-privacy"
         }
       ]
     }
@@ -28,9 +28,13 @@
     "community": {
       "title": "Join Our Community",
       "links": [
+				{
+					"name": "Telegram",
+					"url": "https://t.me/The_PenguinsClub"
+				},
         {
-          "name": "GitHub Discussions",
-          "url": "https://github.com/themefisher/dockit/discussions"
+          "name": "GitHub",
+          "url": "https://github.com/The-Penguins-Club"
         },
         {
           "name": "Discord Community",
@@ -38,11 +42,7 @@
         },
         {
           "name": "Twitter Updates",
-          "url": "/"
-        },
-        {
-          "name": "Contributing Guide",
-          "url": "/"
+          "url": "https://x.com/OrgPenguins"
         }
       ]
     },
@@ -64,10 +64,6 @@
         {
           "name": "About Us",
           "url": "/about"
-        },
-        {
-          "name": "Troubleshooting",
-          "url": "/"
         }
       ]
     },
@@ -75,24 +71,20 @@
       "title": "Resources",
       "links": [
         {
-          "name": "Documentation Hub",
-          "url": "/docs/"
+          "name": "Linux",
+          "url": "/linux/"
         },
         {
-          "name": "Theme Gallery",
-          "url": "/"
+          "name": "Security",
+          "url": "/security/"
         },
         {
-          "name": "Best Practices",
-          "url": "/"
+          "name": "Privacy",
+          "url": "/privacy/"
         },
         {
-          "name": "Performance Tips",
-          "url": "/"
-        },
-        {
-          "name": "Migration Guide",
-          "url": "/"
+          "name": "FOSS",
+          "url": "/foss/"
         }
       ]
     }

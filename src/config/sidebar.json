@@ -1,69 +1,32 @@
 {
   "main": [
-    {
-      "label": "Getting Started",
+		{
+			"label": "Linux",
       "translations": {
-        "fr": "Commencer"
+        "fr": "Linux"
       },
-      "items": [
-        {
-          "label": "[seti:vite] Introduction",
-          "translations": {
-            "fr": "[seti:vite] Introduction"
-          },
-          "autogenerate": { "directory": "getting-started/introduction" }
-        },
-        {
-          "label": "[setting] Global Settings",
-          "translations": {
-            "fr": "[setting] Paramètres globaux"
-          },
-          "autogenerate": { "directory": "getting-started/global-settings" }
-        },
-        {
-          "label": "[seti:plan] Navigation",
-          "translations": {
-            "fr": "[seti:plan] Navigation"
-          },
-          "slug": "getting-started/navigation"
-        }
-      ]
-    },
-    {
-      "label": "Content",
+      "autogenerate": { "directory": "linux" }
+		},
+		{
+			"label": "Security",
       "translations": {
-        "fr": "Contenu"
+        "fr": "Security"
       },
-      "items": [
-        {
-          "label": "[document] Components and Block",
-          "translations": {
-            "fr": "[document] Composants et blocs"
-          },
-          "autogenerate": { "directory": "contents/components" }
-        },
-        {
-          "label": "[pencil] Editing Content",
-          "translations": {
-            "fr": "[pencil] Édition du contenu"
-          },
-          "autogenerate": { "directory": "contents/editing" }
-        }
-      ]
-    },
-    {
-      "label": "Reference",
+      "autogenerate": { "directory": "security" }
+		},
+		{
+			"label": "Privacy",
       "translations": {
-        "fr": "Référence"
+        "fr": "Privacy"
       },
-      "autogenerate": { "directory": "reference" }
-    },
-    {
-      "label": "Configurations",
+      "autogenerate": { "directory": "privacy" }
+		},
+		{
+			"label": "FOSS",
       "translations": {
-        "fr": "Configurations"
+        "fr": "FOSS"
       },
-      "autogenerate": { "directory": "configurations" }
-    }
+      "autogenerate": { "directory": "foss" }
+		}
   ]
 }
