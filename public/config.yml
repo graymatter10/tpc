@@ -1,0 +1,65 @@
+collections:
+  - name: "docs" # Used in routes, e.g., /admin/collections/blog
+    label: "Docs" # Used in the UI
+    folder: "src/content/docs" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in frontmatter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+    #  - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      #- { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "linux" # Used in routes, e.g., /admin/collections/blog
+    label: "Linux" # Used in the UI
+    folder: "src/content/docs/linux" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in frontmatter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+    #  - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      #- { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "privacy" # Used in routes, e.g., /admin/collections/blog
+    label: "Privacy" # Used in the UI
+    folder: "src/content/docs/privacy/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in frontmatter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+    #  - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      #- { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "security" # Used in routes, e.g., /admin/collections/blog
+    label: "Security" # Used in the UI
+    folder: "src/content/docs/security" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in frontmatter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+    #  - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      #- { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "foss" # Used in routes, e.g., /admin/collections/blog
+    label: "FOSS" # Used in the UI
+    folder: "src/content/docs/foss" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in frontmatter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+  #    - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      #- { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
+media_folder: "src/assets/" # Location where files will be stored in the repo
+public_folder: "src/assets/" # The src attribute for uploaded media
+
+backend:
+  name: github
+  repo: graymatter10/tpc
+  branch: main
