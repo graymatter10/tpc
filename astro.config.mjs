@@ -19,6 +19,7 @@ export const locales = locals
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https:ignoreit.me',
   image: {
     service: { entrypoint: "astro/assets/services/noop" },
   },

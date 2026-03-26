@@ -1,6 +1,6 @@
 collections:
   - name: "docs" # Used in routes, e.g., /admin/collections/blog
-    label: "DOCS" # Used in the UI
+    label: "Docs" # Used in the UI
     folder: "src/content/docs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in frontmatter
@@ -11,7 +11,7 @@ collections:
       #- { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "linux" # Used in routes, e.g., /admin/collections/blog
-    label: "LINUX" # Used in the UI
+    label: "Linux" # Used in the UI
     folder: "src/content/docs/linux" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in frontmatter
@@ -22,7 +22,7 @@ collections:
       #- { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "privacy" # Used in routes, e.g., /admin/collections/blog
-    label: "PRIVACY" # Used in the UI
+    label: "Privacy" # Used in the UI
     folder: "src/content/docs/privacy/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in frontmatter
@@ -32,9 +32,9 @@ collections:
     #  - { label: "Featured Image", name: "thumbnail", widget: "image" }
       #- { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "privacy" # Used in routes, e.g., /admin/collections/blog
-    label: "PRIVACY" # Used in the UI
-    folder: "src/content/docs/privacy/" # The path to the folder where the documents are stored
+  - name: "security" # Used in routes, e.g., /admin/collections/blog
+    label: "Security" # Used in the UI
+    folder: "src/content/docs/security" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in frontmatter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
@@ -43,9 +43,9 @@ collections:
     #  - { label: "Featured Image", name: "thumbnail", widget: "image" }
       #- { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "privacy" # Used in routes, e.g., /admin/collections/blog
-    label: "PRIVACY" # Used in the UI
-    folder: "src/content/docs/privacy/" # The path to the folder where the documents are stored
+  - name: "foss" # Used in routes, e.g., /admin/collections/blog
+    label: "FOSS" # Used in the UI
+    folder: "src/content/docs/foss" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in frontmatter
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
